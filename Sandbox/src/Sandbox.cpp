@@ -9,3 +9,8 @@ Sandbox::Sandbox()
 Sandbox::~Sandbox()
 {
 }
+
+Minity::Core* Minity::CreateCore()
+{
+	return new Sandbox();
+}

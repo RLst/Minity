@@ -12,4 +12,7 @@ namespace Minity
 
 		int Run();
 	};
+
+	//To be defined in client
+	Core* CreateCore();
 }

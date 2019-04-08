@@ -78,6 +78,7 @@
     <ClInclude Include="src\Minity\Base.h" />
     <ClInclude Include="src\Minity\Core.h" />
     <ClInclude Include="src\Minity.h" />
+    <ClInclude Include="src\Minity\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Minity\Core.cpp" />

@@ -1,4 +1,10 @@
+# Directories
 .vs/
+
 bin/
+
 imd/
+
+
+# Files
 *.user
