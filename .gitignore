@@ -1,10 +1,10 @@
 # Directories
-.vs/
-
+*/.vs/
+*/.vscode/
 bin/
-
 bimd/
 
 
 # Files
 *.user
+
