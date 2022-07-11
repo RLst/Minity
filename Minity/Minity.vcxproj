@@ -141,9 +141,11 @@
     <ClInclude Include="src\Minity\Base.h" />
     <ClInclude Include="src\Minity\Core.h" />
     <ClInclude Include="src\Minity\EntryPoint.h" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Minity\Core.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

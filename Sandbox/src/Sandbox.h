@@ -2,7 +2,7 @@
 
 #include <Minity.h>
 
-class /*MINTY_API*/ Sandbox : public Minity::Core
+class /*MINTY_API*/ Sandbox : public MinityEngine::Core
 {
 public:
 	Sandbox();

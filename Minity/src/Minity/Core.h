@@ -2,17 +2,19 @@
 
 #include "Base.h"
 
-namespace Minity
+namespace MinityEngine
 {
-	class /*MINTY_API*/ Core
-	{
-	public:
-		Core();
-		virtual ~Core();
 
-		int Run();
-	};
+class /*MINTY_API*/ Core
+{
+public:
+	Core();
+	virtual ~Core();
 
-	//To be defined in client
-	Core* CreateCore();
-}
+	int Run();
+};
+
+//To be defined in client
+Core* CreateCore();
+
+}	//MinityEngine

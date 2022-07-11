@@ -2,11 +2,11 @@
 
 #ifdef MNT_PLATFORM_WINDOWS
 
-extern Minity::Core* Minity::CreateCore();
+extern MinityEngine::Core* MinityEngine::CreateCore();
 
 int main(int argc, char** argv)
 {
-	auto app = Minity::CreateCore();
+	auto app = MinityEngine::CreateCore();
 	app->Run();
 	delete app;
 }

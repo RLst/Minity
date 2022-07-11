@@ -16,10 +16,12 @@
     <ClInclude Include="src\Minity\EntryPoint.h">
       <Filter>Minity</Filter>
     </ClInclude>
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Minity\Core.cpp">
       <Filter>Minity</Filter>
     </ClCompile>
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
 </Project>

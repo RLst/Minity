@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-namespace Minity
+namespace MinityEngine
 {
 	int Core::Run()
 	{

@@ -10,7 +10,7 @@ Sandbox::~Sandbox()
 {
 }
 
-Minity::Core* Minity::CreateCore()
+MinityEngine::Core* MinityEngine::CreateCore()
 {
 	return new Sandbox();
 }
